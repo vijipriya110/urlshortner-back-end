@@ -63,7 +63,7 @@ router.post("/login",async(req,res)=>{
         
     }
 })
-// create API FOR LOGOUT THE USER
+// for logout
 router.get("/logout", async (req, res) => {
     try {
         var deleteToken = req.headers["x-auth-token"];
